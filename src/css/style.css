@@ -86,3 +86,15 @@ a :hover{
     border-bottom: #AD2727;
     cursor: pointer;
 }
+.main {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.eighty {
+    width: 65%;
+}
+.twenty {
+    width: 35%;
+   
+}
