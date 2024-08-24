@@ -1,0 +1,88 @@
+
+.h{
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    margin-left: 3px;
+    text-decoration: none;
+    background-color: white;
+    border: gray;
+}
+
+.h :hover{
+    color: white;
+    padding: 5px;
+    background-color: #AD2727;
+    border-radius: 2px;
+    margin-left: 3px;
+    border: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: white;
+    color: black;
+
+    overflow: hidden;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #575757;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a :hover{
+    color: white;
+    text-decoration: dashed;
+    border-bottom: #AD2727;
+    cursor: pointer;
+}
