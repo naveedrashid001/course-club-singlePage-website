@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: roboto;
 }
 
 nav {
@@ -69,7 +69,8 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #575757;
+    background-color: white;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -79,11 +80,19 @@ nav {
 a{
     color: white;
     text-decoration: none;
+    font-weight:300;
 }
 a :hover{
     color: white;
     text-decoration: dashed;
-    border-bottom: #AD2727;
+    font-weight:500;
+    color: #AD2727;
+    cursor: pointer;
+}
+ ul :hover {
+    color: #AD2727;
+    text-decoration: dashed;
+    border-bottom: 1px solid #AD2727; /* Add 1px solid to see the border */
     cursor: pointer;
 }
 .main {
